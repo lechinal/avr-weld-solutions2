@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import styles from "./Projects.module.css";
 
@@ -7,6 +7,12 @@ import { galleryCategories, galleryItems } from "../data/projectData.js";
 export default function Projects() {
   const [activeCategory, setActiveCategory] = useState("all");
   const [selectedImage, setSelectedImage] = useState(null);
+
+  useEffect(() => {
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, []);
 
   const filteredItems =
     activeCategory === "all"
