@@ -7,9 +7,9 @@ import styles from "../Header/Header.module.css";
 
 const navigationItems = [
   { href: "/", label: "Acasă" },
+  { href: "/about", label: "Despre Noi" },
   { href: "/services", label: "Servicii" },
   { href: "/projects", label: "Proiecte" },
-  { href: "/about", label: "Despre Noi" },
   { href: "/contact", label: "Contact" },
 ];
 
