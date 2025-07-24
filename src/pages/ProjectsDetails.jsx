@@ -1,18 +1,13 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
-// Asigură-te că ai separat datele într-un fișier pentru a le putea importa aici
-import { galleryItems } from "../data/projectData.js"; // Calea către fișierul cu datele proiectelor
-import styles from "./Details.module.css"; // Vom crea acest fișier CSS
+import { galleryItems } from "../data/projectData.js";
+import styles from "./ProjectsDetails.module.css";
 
-export default function Details() {
-  // Extragem 'id'-ul din URL. ex: /details/3 -> id va fi "3"
+export default function ProjectsDetails() {
   const { id } = useParams();
 
-  // Căutăm proiectul în array-ul nostru pe baza id-ului.
-  // Folosim `==` în loc de `===` deoarece `id` din URL este un string.
   const project = galleryItems.find((item) => item.id == id);
 
-  // Ce se întâmplă dacă un proiect cu acel id nu există? Afișăm un mesaj.
   if (!project) {
     return (
       <div className={styles.detailsPage}>
@@ -29,7 +24,6 @@ export default function Details() {
     );
   }
 
-  // Dacă proiectul este găsit, afișăm detaliile sale.
   return (
     <div className={styles.detailsPage}>
       <section className={styles.hero}>
@@ -66,7 +60,11 @@ export default function Details() {
                 <strong>Tehnologie Principală:</strong> {project.details}
               </li>
               <li>
-                <strong>Client:</strong> Nume Client Fictiv
+                <strong>Client:</strong> {project.client}
+              </li>
+              <li>
+                <strong>Locatie:</strong>
+                {project.location}
               </li>
               <li>
                 <strong>Durata:</strong> 6 săptămâni

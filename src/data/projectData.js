@@ -10,6 +10,8 @@ export const galleryItems = [
     id: 1,
     title: "Structură Metalică Industrială",
     category: "fabrication",
+    client: "Azilul de Batrani 'Maria Betrice'",
+    location: "Alba Iulia",
     image:
       "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
     description: "Structură complexă pentru hală industrială",
@@ -20,6 +22,8 @@ export const galleryItems = [
     id: 2,
     title: "Sudură TIG Inox",
     category: "welding",
+    client: "APANOVA Bucuresti",
+    location: "Bucuresti",
     image:
       "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
     description: "Sudură de precizie pentru industria alimentară",
@@ -30,6 +34,8 @@ export const galleryItems = [
     id: 3,
     title: "Transport Echipament Industrial",
     category: "transport",
+    client: "One Lake District",
+    location: "Bucuresti",
     image:
       "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
     description: "Transport mașină-unealtă de 25 tone",

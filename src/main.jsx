@@ -12,7 +12,7 @@ const Contact = lazy(() => import("./pages/Contact.jsx"));
 const NotFound = lazy(() => import("./pages/NotFound.jsx"));
 const Projects = lazy(() => import("./pages/Projects.jsx"));
 const Services = lazy(() => import("./pages/Services.jsx"));
-const Details = lazy(() => import("./pages/Details.jsx"));
+const Details = lazy(() => import("./pages/ProjectsDetails.jsx"));
 const router = createBrowserRouter(
   [
     {
