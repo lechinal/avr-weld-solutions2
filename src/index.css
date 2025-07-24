@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-top: 70px; /* Space for fixed navbar */
+  font-family: "Roboto", "Oxygen", sans-serif, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Roboto";
+}
+
+p,
+ul,
+li,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+:root {
+  /** Font family */
+  --fontFamilyRoboto: "Roboto", sans-serif;
+  --fontFamilyRobotoSlab: "Roboto Slab", serif;
+
+  --fontRobotoLight300: var(--fontFamilyRoboto);
+  --fontRobotoRegular400: var(--fontFamilyRoboto);
+  --fontRobotoMedium500: var(--fontFamilyRoboto);
+  --fontRobotoBold700: var(--fontFamilyRoboto);
+  --fontRobotoBlack900: var(--fontFamilyRoboto);
+
+  --fontRobotoSlabLight300: var(--fontFamilyRobotoSlab);
+  --fontRobotoSlabLight400: var(--fontFamilyRobotoSlab);
+  --fontRobotoSlabLight500: var(--fontFamilyRobotoSlab);
+  --fontRobotoSlabLight700: var(--fontFamilyRobotoSlab);
+  --fontRobotoSlabLight900: var(--fontFamilyRobotoSlab);
+
+  /** Font Weights */
+  --fontWeight300: 300;
+  --fontWeight400: 400;
+  --fontWeight500: 500;
+  --fontWeight700: 700;
+  --fontWeight900: 900;
+
+  /** Font Sizes */
+  --fontSize8: 8px;
+  --fontSize10: 10px;
+  --fontSize12: 12px;
+  --fontSize14: 14px;
+  --fontSize16: 16px;
+  --fontSize18: 18px;
+  --fontSize19: 19px;
+  --fontSize28: 28px;
+  --fontSize40: 40px;
+  --fontSize50: 50px;
+  --fontSize70: 70px;
+
+  /** Spacing */
+  --spacing1: 1px;
+  --spacing2: 2px;
+
+  /** Line height */
+  --lineHeight32: 32px;
+
+  /** Border Radius */
+  --borderRadius6: 6px;
+  --borderRadius8: 8px;
+  --borderRadius10: 10px;
+  --borderRadius15: 15px;
+  --borderRadius20: 20px;
+
+  /** Colors */
+  --primaryColor: #ce9233;
+  --lightColor: #fff;
+  --lightColor2: #f9f8f7;
+  --darkColor: #181614;
+  --blackColor: black;
+  --textColor: #797672;
+  --sectionColor: #dadce0;
+  --sectionColor2: #f9f8f7;
+  --paleSilver: #c4beb9;
+  --greenColor: #659999;
+}

@@ -1,0 +1,467 @@
+.servicesPage {
+  padding-top: 70px;
+}
+
+.hero {
+  padding: 80px 0;
+  background: var(--darkColor);
+  color: var(--lightColor);
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.heroTitle {
+  font-family: var(--fontFamilyRobotoSlab);
+  font-weight: var(--fontWeight700);
+  font-size: var(--fontSize50);
+  color: var(--lightColor);
+  margin-bottom: 24px;
+}
+
+.heroSubtitle {
+  font-size: var(--fontSize19);
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 600px;
+  margin: 0 auto 32px;
+  line-height: 1.6;
+}
+
+.heroButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.primaryButton {
+  background: var(--primaryColor);
+  color: var(--lightColor);
+  border: none;
+  padding: 16px 32px;
+  border-radius: var(--borderRadius10);
+  font-size: var(--fontSize16);
+  font-weight: var(--fontWeight500);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.primaryButton:hover {
+  background: #b8832d;
+  transform: translateY(-2px);
+}
+
+.secondaryButton {
+  background: transparent;
+  color: var(--lightColor);
+  border: 2px solid var(--lightColor);
+  padding: 16px 32px;
+  border-radius: var(--borderRadius10);
+  font-size: var(--fontSize16);
+  font-weight: var(--fontWeight500);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.secondaryButton:hover {
+  background: var(--lightColor);
+  color: var(--darkColor);
+}
+
+.buttonIcon {
+  font-size: var(--fontSize16);
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.secondaryButton:hover .arrow {
+  transform: translateX(4px);
+}
+
+.detailedServices {
+  padding: 80px 0;
+  background: var(--lightColor);
+}
+
+.serviceDetail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.serviceDetail:last-child {
+  margin-bottom: 0;
+}
+
+.serviceDetailReverse .serviceContent {
+  order: 2;
+}
+
+.serviceDetailReverse .serviceImage {
+  order: 1;
+}
+
+.serviceHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.serviceEmoji {
+  font-size: var(--fontSize28);
+}
+
+.serviceBadge {
+  background: rgba(206, 146, 51, 0.1);
+  color: var(--primaryColor);
+  padding: 4px 12px;
+  border-radius: var(--borderRadius6);
+  font-size: var(--fontSize12);
+  font-weight: var(--fontWeight500);
+  border: 1px solid var(--primaryColor);
+}
+
+.serviceTitle {
+  font-family: var(--fontFamilyRobotoSlab);
+  font-weight: var(--fontWeight700);
+  font-size: var(--fontSize28);
+  color: var(--darkColor);
+  margin-bottom: 16px;
+}
+
+.serviceDescription {
+  font-size: var(--fontSize16);
+  color: var(--textColor);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.serviceDetails {
+  margin-bottom: 24px;
+}
+
+.detailsTitle {
+  font-weight: var(--fontWeight500);
+  font-size: var(--fontSize18);
+  color: var(--darkColor);
+  margin-bottom: 12px;
+}
+
+.detailsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 8px;
+}
+
+.detailItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--fontSize14);
+  color: var(--textColor);
+}
+
+.checkIcon {
+  color: var(--greenColor);
+  font-weight: var(--fontWeight700);
+  font-size: var(--fontSize12);
+}
+
+.applicationsList {
+  margin-bottom: 32px;
+}
+
+.applications {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.applicationTag {
+  background: var(--lightColor2);
+  color: var(--textColor);
+  padding: 6px 12px;
+  border-radius: var(--borderRadius6);
+  font-size: var(--fontSize12);
+  border: 1px solid rgba(206, 146, 51, 0.2);
+}
+
+.serviceButton {
+  background: var(--primaryColor);
+  color: var(--lightColor);
+  border: none;
+  padding: 12px 24px;
+  border-radius: var(--borderRadius8);
+  font-weight: var(--fontWeight500);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.serviceButton:hover {
+  background: #b8832d;
+}
+
+.serviceImage {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: var(--borderRadius20);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+}
+
+.premiumBadge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  padding: 8px 12px;
+  border-radius: var(--borderRadius8);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--fontSize12);
+  font-weight: var(--fontWeight500);
+  color: var(--darkColor);
+}
+
+.star {
+  color: #ffd700;
+}
+
+.features {
+  padding: 80px 0;
+  background: var(--lightColor2);
+}
+
+.featuresHeader {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.featuresTitle {
+  font-family: var(--fontFamilyRobotoSlab);
+  font-weight: var(--fontWeight700);
+  font-size: var(--fontSize40);
+  color: var(--darkColor);
+  margin-bottom: 16px;
+}
+
+.featuresSubtitle {
+  font-size: var(--fontSize16);
+  color: var(--textColor);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+}
+
+.featureCard {
+  background: var(--lightColor);
+  padding: 32px;
+  border-radius: var(--borderRadius15);
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
+}
+
+.featureIcon {
+  width: 64px;
+  height: 64px;
+  background: rgba(206, 146, 51, 0.1);
+  border-radius: var(--borderRadius15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  font-size: var(--fontSize28);
+}
+
+.featureTitle {
+  font-weight: var(--fontWeight500);
+  color: var(--darkColor);
+  margin-bottom: 8px;
+  font-size: var(--fontSize16);
+}
+
+.featureDescription {
+  color: var(--textColor);
+  font-size: var(--fontSize14);
+  line-height: 1.5;
+}
+
+.cta {
+  padding: 80px 0;
+  background: var(--primaryColor);
+  color: var(--lightColor);
+  text-align: center;
+}
+
+.ctaContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.ctaTitle {
+  font-family: var(--fontFamilyRobotoSlab);
+  font-weight: var(--fontWeight700);
+  font-size: var(--fontSize40);
+  margin-bottom: 24px;
+}
+
+.ctaSubtitle {
+  font-size: var(--fontSize19);
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.ctaButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.ctaPrimaryButton {
+  background: var(--lightColor);
+  color: var(--primaryColor);
+  border: none;
+  padding: 16px 32px;
+  border-radius: var(--borderRadius10);
+  font-size: var(--fontSize16);
+  font-weight: var(--fontWeight500);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ctaPrimaryButton:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.ctaSecondaryButton {
+  background: transparent;
+  color: var(--lightColor);
+  border: 2px solid var(--lightColor);
+  padding: 16px 32px;
+  border-radius: var(--borderRadius10);
+  font-size: var(--fontSize16);
+  font-weight: var(--fontWeight500);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ctaSecondaryButton:hover {
+  background: var(--lightColor);
+  color: var(--primaryColor);
+}
+
+/* Mobile Styles */
+@media (min-width: 640px) {
+  .heroButtons,
+  .ctaButtons {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 1024px) {
+  .serviceDetail {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .serviceDetailReverse .serviceContent,
+  .serviceDetailReverse .serviceImage {
+    order: initial;
+  }
+}
+
+@media (max-width: 768px) {
+  .servicesPage {
+    padding-top: 60px;
+  }
+
+  .hero {
+    padding: 60px 0;
+  }
+
+  .container,
+  .ctaContainer {
+    padding: 0 16px;
+  }
+
+  .heroTitle,
+  .featuresTitle,
+  .ctaTitle {
+    font-size: var(--fontSize28);
+  }
+
+  .heroSubtitle,
+  .ctaSubtitle {
+    font-size: var(--fontSize16);
+  }
+
+  .detailedServices {
+    padding: 60px 0;
+  }
+
+  .serviceDetail {
+    margin-bottom: 60px;
+  }
+
+  .serviceTitle {
+    font-size: var(--fontSize19);
+  }
+
+  .detailsList {
+    grid-template-columns: 1fr;
+  }
+
+  .featuresGrid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .features,
+  .cta {
+    padding: 60px 0;
+  }
+}
