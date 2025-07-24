@@ -12,7 +12,7 @@ const footerLinks = {
   ],
   company: [
     { label: "Despre Noi", href: "/about" },
-    { label: "Galerie", href: "/gallery" },
+    { label: "Proiecte", href: "/projects" },
     { label: "Contact", href: "/contact" },
     { label: "Servicii", href: "/services" },
   ],
@@ -24,8 +24,8 @@ const footerLinks = {
       icon: "📧",
     },
     {
-      label: "Ploiești, Prahova",
-      href: "https://maps.google.com/?q=Ploiești,+Prahova",
+      label: "Blaj, judetul Alba",
+      href: "https://maps.app.goo.gl/e3ahHWGnYPcA4JyP7",
       icon: "📍",
     },
   ],

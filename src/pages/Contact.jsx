@@ -17,9 +17,9 @@ const contactInfo = [
   },
   {
     title: "Adresă",
-    value: "Str. Industrială Nr. 15, Ploiești, Prahova",
+    value: "Str. Al. G. Golescu Nr. 42, Blaj, judetul Alba",
     icon: "📍",
-    href: "https://maps.google.com/?q=Ploiești,+Prahova",
+    href: "https://maps.app.goo.gl/e3ahHWGnYPcA4JyP7",
   },
   {
     title: "Program",
@@ -214,11 +214,12 @@ export default function Contact() {
                 <div className={styles.mapPlaceholder}>
                   <div className={styles.mapIcon}>🗺️</div>
                   <p className={styles.mapText}>
-                    Vizitați-ne la sediul nostru din Ploiești pentru consultații
-                    directe și discuții despre proiectele dumneavoastră.
+                    Vizitați-ne la sediul nostru din localitatea Blaj, judetul
+                    Alba pentru consultații directe și discuții despre
+                    proiectele dumneavoastră.
                   </p>
                   <a
-                    href="https://maps.google.com/?q=Ploiești,+Prahova"
+                    href="https://maps.app.goo.gl/e3ahHWGnYPcA4JyP7"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={styles.mapButton}
