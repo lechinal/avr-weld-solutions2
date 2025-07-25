@@ -10,7 +10,7 @@ export const galleryItems = [
     id: 1,
     title: "Structură Metalică Industrială",
     category: "fabrication",
-    client: "Azilul de Batrani 'Maria Betrice'",
+    client: "Azilul de Batrani 'Maria Beatrice'",
     location: "Alba Iulia",
     image:
       "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",

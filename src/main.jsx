@@ -13,6 +13,10 @@ const NotFound = lazy(() => import("./pages/NotFound.jsx"));
 const Projects = lazy(() => import("./pages/Projects.jsx"));
 const Services = lazy(() => import("./pages/Services.jsx"));
 const Details = lazy(() => import("./pages/ProjectsDetails.jsx"));
+const LegalPages = lazy(() => import("./pages/LegalPages.jsx"));
+const TermsAndConditions = lazy(() => import("./pages/TermsAndConditions.jsx"));
+const GDPR = lazy(() => import("./pages/GDPR.jsx"));
+
 const router = createBrowserRouter(
   [
     {
@@ -41,6 +45,18 @@ const router = createBrowserRouter(
           element: <Services />,
         },
         {
+          path: "privacy-policy",
+          element: <LegalPages />,
+        },
+        {
+          path: "terms-and-conditions",
+          element: <TermsAndConditions />,
+        },
+        {
+          path: "gdpr",
+          element: <GDPR />,
+        },
+        {
           path: "*",
           element: <NotFound />,
         },
@@ -52,7 +68,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: "/avr-weld-solutions2", // Adjust this if your app is hosted in a subdirectory
+    basename: "/avr-weld-solutions2",
   }
 );
 

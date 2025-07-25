@@ -1,0 +1,29 @@
+.legalPage {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: var(--lightColor);
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.legalPage h1 {
+  font-family: var(--fontFamilyRobotoSlab);
+  font-size: var(--fontSize40);
+  margin-bottom: 2rem;
+  color: var(--darkColor);
+}
+.legalPage h2 {
+  font-family: var(--fontFamilyRobotoSlab);
+  font-size: var(--fontSize28);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--darkColor);
+}
+.legalPage p {
+  font-size: var(--fontSize16);
+  line-height: 1.7;
+  color: var(--textColor);
+  margin-bottom: 1rem;
+}

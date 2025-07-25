@@ -130,15 +130,16 @@ export default function Footer() {
             </p>
           </div>
           <div className={styles.legalLinks}>
-            <a href="#" className={styles.legalLink}>
+            {/* Am înlocuit <a> cu <Link> și am pus rutele corecte */}
+            <Link to="/privacy-policy" className={styles.legalLink}>
               Politica de Confidențialitate
-            </a>
-            <a href="#" className={styles.legalLink}>
+            </Link>
+            <Link to="/terms-and-conditions" className={styles.legalLink}>
               Termeni și Condiții
-            </a>
-            <a href="#" className={styles.legalLink}>
+            </Link>
+            <Link to="/gdpr" className={styles.legalLink}>
               GDPR
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,8 +1,9 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import svgr from "vite-plugin-svgr";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "https://lechinal.github.io/avr-weld-solutions2",
-  plugins: [react()],
+  plugins: [react(), svgr()],
+  base: "/avr-weld-solutions2",
 });
