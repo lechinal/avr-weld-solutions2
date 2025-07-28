@@ -109,8 +109,8 @@ export default function About() {
         <div className={styles.container}>
           <h1 className={styles.heroTitle}>Despre AVR Weld Solutions</h1>
           <p className={styles.heroSubtitle}>
-            Peste 15 ani de experiență în furnizarea soluțiilor profesionale de
-            sudură și confecții metalice pentru industria românească
+            Peste 25 ani de experiență în furnizarea soluțiilor profesionale de
+            sudură și confecții metalice pentru industria românească.
           </p>
         </div>
       </section>
@@ -122,11 +122,13 @@ export default function About() {
             <div className={styles.storyContent}>
               <h2 className={styles.storyTitle}>Povestea Noastră</h2>
               <p className={styles.storyText}>
-                AVR Weld Solutions a fost înființată în 2009 cu o viziune clară:
-                să oferim servicii de sudură și confecții metalice de cea mai
-                înaltă calitate pentru industria românească. De atunci, am
-                crescut constant, construind o reputație solidă bazată pe
-                profesionalism, inovație și dedicare.
+                La AVR Weld Solutions, nu ne limităm doar la realizarea
+                proiectelor - noi creăm opere de artă din metal. Cu autorizație
+                ISCIR și o prezență semnificativă în Europa și Africa, suntem
+                recunoscuți pentru fabricarea și montarea traseelor de tuburi
+                metalice pentru transportul lichidelor și gazelor industriale,
+                oferind soluții complete și personalizate pentru clienții
+                noștri.
               </p>
               <p className={styles.storyText}>
                 Astăzi, suntem recunoscuți ca unul dintre liderii pieței în
@@ -140,7 +142,7 @@ export default function About() {
                   <span className={styles.statLabel}>Proiecte Finalizate</span>
                 </div>
                 <div className={styles.stat}>
-                  <span className={styles.statNumber}>15+</span>
+                  <span className={styles.statNumber}>25+</span>
                   <span className={styles.statLabel}>Ani Experiență</span>
                 </div>
                 <div className={styles.stat}>

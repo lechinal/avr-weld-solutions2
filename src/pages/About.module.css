@@ -14,6 +14,31 @@
   margin: 0 auto;
   padding: 0 20px;
 }
+.floatingElement1 {
+  position: absolute;
+  top: 25%;
+  left: 80px;
+  width: 80px;
+  height: 80px;
+  background: rgba(206, 146, 51, 0.2);
+  border-radius: 50%;
+  filter: blur(20px);
+  animation: pulse 3s infinite;
+  display: none;
+}
+
+.floatingElement2 {
+  position: absolute;
+  bottom: 25%;
+  right: 80px;
+  width: 120px;
+  height: 120px;
+  background: rgba(101, 153, 153, 0.2);
+  border-radius: 50%;
+  filter: blur(20px);
+  animation: pulse 3s infinite 1.5s;
+  display: none;
+}
 
 .heroTitle {
   font-family: var(--fontFamilyRobotoSlab);
@@ -116,7 +141,7 @@
 }
 
 .timelineList::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 0;

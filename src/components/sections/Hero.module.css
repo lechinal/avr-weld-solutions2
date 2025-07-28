@@ -11,17 +11,21 @@
 .background {
   position: absolute;
   inset: 0;
-  background-image: url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080');
+  background-image: url("https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .background::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(24, 22, 20, 0.8) 0%, rgba(24, 22, 20, 0.6) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(24, 22, 20, 0.8) 0%,
+    rgba(24, 22, 20, 0.6) 100%
+  );
 }
 
 .container {
@@ -131,7 +135,7 @@
 }
 
 .arrow {
-  color: var(--lightColor);
+  color: var(--blackColor);
   font-size: var(--fontSize19);
   opacity: 0.8;
 }
@@ -163,7 +167,11 @@
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateX(-50%) translateY(0);
   }
   40% {
@@ -175,7 +183,8 @@
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0.4;
     transform: scale(1);
   }

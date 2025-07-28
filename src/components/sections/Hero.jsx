@@ -21,12 +21,22 @@ export default function Hero() {
             <span className={styles.titlePrimary}>AVR</span>
             <span className={styles.titleSecondary}>WELD SOLUTIONS</span>
           </h1>
+          {/* <h4>Locul unde Metalul Prinde Viață.</h4>
+          <h4>Montaje și Reparații Tuberie Industrială, Structuri Metalice</h4> */}
 
           <p className={styles.subtitle}>
             Soluții profesionale de sudură și confecții metalice pentru toate
-            nevoile industriale. Experiență de peste 15 ani în domeniu cu
+            nevoile industriale. Experiență de peste 25 ani în domeniu cu
             echipamente moderne și certificări internaționale.
           </p>
+          {/* <p className={styles.subtitle}>
+            Serviciile de sudură a confecțiilor metalice sunt esențiale pentru o
+            gamă largă de industrii, inclusiv construcții, manufacturare, auto,
+            aeronautică, navală și multe altele. Suntem specializați în sudura
+            diferitelor tipuri de confecții metalice, precum și în producția
+            acestora, oferind soluții personalizate pentru nevoile fiecărui
+            client.
+          </p> */}
 
           <div className={styles.buttons}>
             <Link to="/contact">

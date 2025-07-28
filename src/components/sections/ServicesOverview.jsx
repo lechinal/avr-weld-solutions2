@@ -60,6 +60,13 @@ export default function ServicesOverview() {
             Oferim soluții complete pentru toate nevoile dvs. de sudură și
             confecții metalice
           </p>
+          <p className={styles.sectionSubtitle}>
+            Datorită angajamentului nostru față de calitate, suntem recunoscuți
+            ca un furnizor de încredere în domeniul sudurilor metalice. Avem o
+            reputație solidă în industrie, iar clienții noștri se pot baza pe
+            noi pentru a livra produse și servicii de calitate, la timp și la
+            prețuri competitive.
+          </p>
           <div className={styles.titleUnderline} />
         </div>
 
