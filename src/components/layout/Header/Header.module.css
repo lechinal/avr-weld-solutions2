@@ -171,8 +171,8 @@
 .mobileCtaButtonLink {
   margin-top: 1rem;
   padding: 1rem 2rem;
-  background: #ce9233;
-  color: #fff;
+  background: var(--primaryColor);
+  color: var(--ligthColor);
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;

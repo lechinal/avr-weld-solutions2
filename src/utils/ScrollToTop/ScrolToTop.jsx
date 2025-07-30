@@ -2,13 +2,15 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 function ScrollToTop() {
-  const { pathname } = useLocation(); // Destructurează pathname din obiectul location
+  const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0); // Derulează la coordonatele (0, 0) - vârful paginii
-  }, [pathname]); // Ruleaza acest efect de fiecare data cand pathname se schimba
+    // Derulează la coordonatele (0, 0) - vârful paginii
+    window.scrollTo(0, 0);
+    // Ruleaza acest efect de fiecare data cand pathname se schimba
+  }, [pathname]);
 
-  return null; // Aceasta componenta nu randeaza nimic vizibil
+  return null;
 }
 
 export default ScrollToTop;

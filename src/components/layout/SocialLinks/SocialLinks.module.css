@@ -5,7 +5,7 @@
 }
 
 .socialLink {
-  color: var(--paleSilver);
+  color: var(--darkColor);
   text-decoration: none;
   font-size: var(--fontSize19);
   transition: all 0.3s ease;

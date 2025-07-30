@@ -15,7 +15,7 @@ function App() {
       <ScrollToTop />
       <Header />
       <main>
-        <Outlet /> {/* Aici se vor randa Home, About, Contact etc. */}
+        <Outlet />
       </main>
       <Footer />
     </div>

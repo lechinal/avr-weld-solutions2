@@ -137,6 +137,9 @@
   transform: translateX(-4px);
 }
 
+.galleryImages {
+  margin-top: 4rem;
+}
 /* --- Media Query--- */
 @media (min-width: 768px) {
   .detailsContent {

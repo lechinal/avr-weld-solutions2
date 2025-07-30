@@ -2,6 +2,7 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import { galleryItems } from "../data/projectData.js";
 import styles from "./ProjectsDetails.module.css";
+import ProjectImageGallery from "../components/layout/ProjectImageGallery/ProjectImageGallery.jsx";
 
 export default function ProjectsDetails() {
   const { id } = useParams();
@@ -78,6 +79,13 @@ export default function ProjectsDetails() {
             </Link>
           </aside>
         </div>
+      </div>
+      <div className={styles.galleryImages}>
+        <ProjectImageGallery
+          images={project.galleryImages}
+          title={project.title}
+          client={project.client}
+        />
       </div>
     </div>
   );

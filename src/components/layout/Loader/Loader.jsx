@@ -11,7 +11,7 @@ const Loader = () => {
         height: "100vh",
       }}
     >
-      <ClimbingBoxLoader color="#ce9233" />;
+      <ClimbingBoxLoader color="#ce9233" />
     </div>
   );
 };
