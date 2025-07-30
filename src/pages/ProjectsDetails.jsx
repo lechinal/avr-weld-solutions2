@@ -3,6 +3,8 @@ import { useParams, Link } from "react-router-dom";
 import { galleryItems } from "../data/projectData.js";
 import styles from "./ProjectsDetails.module.css";
 import ProjectImageGallery from "../components/layout/ProjectImageGallery/ProjectImageGallery.jsx";
+import ProjectVideoPlayer from "../components/layout/ProjectVideoPlayer/ProjectVideoPlayer.jsx";
+// import SuduraVideo from "../../src/assets/videos/videoOneLakeDistrictBucuresti.mp4?url";
 
 export default function ProjectsDetails() {
   const { id } = useParams();
@@ -86,6 +88,7 @@ export default function ProjectsDetails() {
           title={project.title}
           client={project.client}
         />
+        {project.video && <ProjectVideoPlayer videoSrc={project.video} />}
       </div>
     </div>
   );

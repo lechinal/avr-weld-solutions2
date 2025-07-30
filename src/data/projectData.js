@@ -52,6 +52,7 @@ import OneLakeDistrict27 from "../assets/images/projects/oneLakeDistrict/OneLake
 import OneLakeDistrict28 from "../assets/images/projects/oneLakeDistrict/OneLakeDistrictBucuresti28.jpeg";
 import OneLakeDistrict29 from "../assets/images/projects/oneLakeDistrict/OneLakeDistrictBucuresti29.jpeg";
 import OneLakeDistrict30 from "../assets/images/projects/oneLakeDistrict/OneLakeDistrictBucuresti30.jpeg";
+import SuduraVideo from "../assets/videos/videoOneLakeDistrictBucuresti.mp4";
 
 export const galleryCategories = [
   { id: "all", label: "Toate Proiectele", color: "primary" },
@@ -150,6 +151,7 @@ export const galleryItems = [
       OneLakeDistrict29,
       OneLakeDistrict30,
     ],
+    video: SuduraVideo,
   },
   {
     id: 4,

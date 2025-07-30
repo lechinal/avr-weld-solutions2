@@ -1,0 +1,35 @@
+.videoSection {
+  /* Folosim un fundal ușor diferit pentru a separa secțiunea */
+  background-color: var(--lightColor);
+  padding: 80px 0;
+  border-top: 1px solid var(--sectionColor);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.videoTitle {
+  font-family: var(--fontFamilyRobotoSlab);
+  font-weight: var(--fontWeight700);
+  font-size: var(--fontSize40);
+  color: var(--darkColor);
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.videoWrapper {
+  max-width: 900px; /* Lățimea maximă a player-ului */
+  margin: 0 auto;
+  border-radius: var(--borderRadius15);
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.videoPlayer {
+  width: 100%;
+  height: auto;
+  display: block;
+}
