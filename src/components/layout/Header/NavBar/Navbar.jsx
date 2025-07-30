@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import styles from "../Header.module.css";
+import SocialLinks from "../../SocialLinks/SocialLinks";
 
 export default function Navbar({
   isMenuOpen,
@@ -80,6 +81,10 @@ export default function Navbar({
               Contactează-ne
             </Link>
           </nav>
+          <div className={styles.mobileExtraContent}>
+            <div className={styles.mobileDivider} />
+            <SocialLinks />
+          </div>
         </div>
       )}
     </>

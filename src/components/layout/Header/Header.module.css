@@ -178,6 +178,33 @@
   font-weight: 600;
 }
 
+.mobileExtraContent {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.mobileDivider {
+  width: 50%;
+  height: 1px;
+  background-color: var(--sectionColor);
+  opacity: 0.5;
+}
+
+/* 
+  Suprascriere pentru a face iconitele vizibile pe fundalul deschis al meniului.
+  :global() ne permite sa stilizam o clasa dintr-o componentă copil.
+*/
+.mobileExtraContent :global(.socialLink) {
+  color: var(--darkColor);
+}
+
+.mobileExtraContent :global(.socialLink:hover) {
+  color: var(--primaryColor);
+}
+
 /* --- Media Query --- */
 /* Cand ecranul este mai mic de 900px */
 @media (max-width: 900px) {

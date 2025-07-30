@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
+import SocialLinks from "../SocialLinks/SocialLinks";
 
 const currentYear = new Date().getFullYear();
 
@@ -129,6 +130,7 @@ export default function Footer() {
               © {currentYear} AVR Weld Solutions. Toate drepturile rezervate.
             </p>
           </div>
+          <SocialLinks />
           <div className={styles.legalLinks}>
             {/* Am înlocuit <a> cu <Link> și am pus rutele corecte */}
             <Link to="/privacy-policy" className={styles.legalLink}>
