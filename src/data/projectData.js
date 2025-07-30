@@ -112,7 +112,7 @@ export const galleryItems = [
     id: 3,
     title: "Transport Echipament Industrial",
     category: "transport",
-    client: "One Lake District",
+    client: "One Lake District Bucuresti",
     location: "Bucuresti",
     image:
       "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
