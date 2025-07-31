@@ -80,7 +80,7 @@ export default function Services() {
                 Solicită Ofertă
               </button>
             </Link>
-            <Link to="/gallery">
+            <Link to="/projects">
               <button className={styles.secondaryButton}>
                 Vezi Proiectele
                 <span className={styles.arrow}>→</span>
