@@ -2,21 +2,24 @@ export const SERVICES = [
   {
     id: "welding",
     title: "Sudură Profesională",
-    description: "Servicii complete de sudură pentru toate tipurile de metale, folosind tehnologii moderne și echipamente de ultimă generație.",
+    description:
+      "Servicii complete de sudură pentru toate tipurile de metale, folosind tehnologii moderne și echipamente de ultimă generație.",
     icon: "🔥",
     color: "primary",
   },
   {
     id: "metalwork",
     title: "Confecții Metalice",
-    description: "Proiectăm și fabricăm confecții metalice personalizate pentru industrie, construcții și aplicații speciale.",
+    description:
+      "Proiectăm și fabricăm confecții metalice personalizate pentru industrie, construcții și aplicații speciale.",
     icon: "⚙️",
     color: "green",
   },
   {
     id: "transport",
     title: "Transport Industrial",
-    description: "Soluții complete de transport pentru echipamente industriale și produse finite, cu echipă specializată.",
+    description:
+      "Soluții complete de transport pentru echipamente industriale și produse finite, cu echipă specializată.",
     icon: "🚛",
     color: "dark",
   },
@@ -45,7 +48,7 @@ export const STATISTICS = [
     color: "white",
   },
   {
-    number: "10+",
+    number: "25+",
     label: "Ani",
     description: "De experiență",
     icon: "📅",
@@ -61,7 +64,7 @@ export const FEATURES = [
   },
   {
     icon: "⏰",
-    title: "Livrare Rapidă", 
+    title: "Livrare Rapidă",
     description: "Respectăm termenele",
   },
   {
@@ -72,7 +75,7 @@ export const FEATURES = [
   {
     icon: "🏆",
     title: "Experiență",
-    description: "Peste 10 ani",
+    description: "Peste 25 ani",
   },
 ];
 
@@ -116,7 +119,7 @@ export const GALLERY_IMAGES = [
   },
   {
     id: 6,
-    category: "industrial", 
+    category: "industrial",
     src: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
     alt: "Echipamente industriale grele",
   },

@@ -204,7 +204,7 @@ export default function Services() {
                 Contactează-ne Acum
               </button>
             </Link>
-            <Link href="/gallery">
+            <Link href="/projects">
               <button className={styles.ctaSecondaryButton}>
                 Vezi Lucrările Noastre
                 <span className={styles.arrow}>→</span>
