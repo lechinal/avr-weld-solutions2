@@ -1,0 +1,39 @@
+.featureCard {
+  text-align: center;
+  padding: 24px;
+  background: var(
+    --lightColor
+  ); /* Am adăugat fundal alb și umbră pentru consistență */
+  border-radius: var(--borderRadius15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
+}
+
+.featureIcon {
+  width: 48px;
+  height: 48px;
+  background: rgba(206, 146, 51, 0.1);
+  border-radius: var(--borderRadius10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+  font-size: var(--fontSize19);
+}
+
+.featureTitle {
+  font-weight: var(--fontWeight500);
+  color: var(--darkColor);
+  margin-bottom: 4px;
+  font-size: var(--fontSize16);
+}
+
+.featureDescription {
+  color: var(--textColor);
+  font-size: var(--fontSize14);
+}
