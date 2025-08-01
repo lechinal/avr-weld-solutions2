@@ -30,15 +30,15 @@ export default function NotFound() {
           <div className={styles.suggestions}>
             <h2 className={styles.suggestionsTitle}>Pagini Utile:</h2>
             <div className={styles.suggestionsList}>
-              <Link href="/services" className={styles.suggestionLink}>
+              <Link to="/services" className={styles.suggestionLink}>
                 <span className={styles.linkIcon}>🔧</span>
                 <span>Serviciile Noastre</span>
               </Link>
-              <Link href="/projects" className={styles.suggestionLink}>
+              <Link to="/projects" className={styles.suggestionLink}>
                 <span className={styles.linkIcon}>📸</span>
                 <span>Galeria de Proiecte</span>
               </Link>
-              <Link href="/about" className={styles.suggestionLink}>
+              <Link to="/about" className={styles.suggestionLink}>
                 <span className={styles.linkIcon}>ℹ️</span>
                 <span>Despre Noi</span>
               </Link>
