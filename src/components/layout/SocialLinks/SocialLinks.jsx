@@ -34,7 +34,11 @@ const socialMediaLinks = [
     icon: <FaLinkedin />,
   },
 ];
-export default function SocialLinks() {
+export default function SocialLinks({ variant = "default" }) {
+  const linkClassName =
+    variant === "dark"
+      ? `${styles.socialLink} ${styles.dark}`
+      : styles.socialLink;
   return (
     <div className={styles.socialContainer}>
       {socialMediaLinks.map((social) => (
@@ -44,7 +48,7 @@ export default function SocialLinks() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label={`Urmărește-ne pe ${social.name}`}
-          className={styles.socialLink}
+          className={linkClassName}
         >
           {social.icon}
         </a>

@@ -5,13 +5,22 @@
 }
 
 .socialLink {
-  color: var(--darkColor);
+  color: var(--textColor);
   text-decoration: none;
   font-size: var(--fontSize19);
   transition: all 0.3s ease;
 }
 
 .socialLink:hover {
+  color: var(--primaryColor);
+  transform: scale(1.1);
+}
+
+.dark {
+  color: var(--darkColor);
+}
+
+.dark:hover {
   color: var(--primaryColor);
   transform: scale(1.1);
 }

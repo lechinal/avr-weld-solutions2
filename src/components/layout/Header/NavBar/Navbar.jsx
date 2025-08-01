@@ -7,6 +7,7 @@ export default function Navbar({
   toggleMenu,
   closeMenu,
   navigationItems,
+  variant,
 }) {
   return (
     <>
@@ -83,7 +84,7 @@ export default function Navbar({
           </nav>
           <div className={styles.mobileExtraContent}>
             <div className={styles.mobileDivider} />
-            <SocialLinks />
+            <SocialLinks variant="dark" />
           </div>
         </div>
       )}
