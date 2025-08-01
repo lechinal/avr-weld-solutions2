@@ -27,3 +27,9 @@
   color: var(--textColor);
   margin-bottom: 1rem;
 }
+
+.gdprList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

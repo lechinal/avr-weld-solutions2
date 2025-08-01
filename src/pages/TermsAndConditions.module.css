@@ -1,0 +1,86 @@
+/* src/pages/Legal/LegalPages.module.css */
+
+/* Containerul principal al paginii */
+.legalPage {
+  background-color: var(--lightColor2);
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container h1 {
+  font-family: var(--fontFamilyRobotoSlab);
+  font-size: var(--fontSize40);
+  font-weight: var(--fontWeight700);
+  color: var(--darkColor);
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.container h1 + p {
+  font-size: var(--fontSize14);
+  color: var(--textColor);
+  text-align: center;
+  margin-bottom: 48px;
+  border-bottom: 1px solid var(--sectionColor);
+  padding-bottom: 24px;
+}
+
+.container h2 {
+  font-family: var(--fontFamilyRobotoSlab);
+  font-size: var(--fontSize28);
+  font-weight: var(--fontWeight700);
+  color: var(--darkColor);
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.container p {
+  font-size: var(--fontSize16);
+  color: var(--textColor);
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.container a {
+  color: var(--primaryColor);
+  font-weight: var(--fontWeight500);
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.container a:hover {
+  color: var(--darkColor);
+}
+
+.container ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+
+.container li {
+  font-size: var(--fontSize16);
+  color: var(--textColor);
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+  .legalPage {
+    padding: 60px 0;
+  }
+
+  .container h1 {
+    font-size: var(--fontSize28);
+  }
+
+  .container h2 {
+    font-size: var(--fontSize19);
+  }
+}
