@@ -68,7 +68,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: "/avr-weld-solutions2",
+    basename: import.meta.env.BASE_URL,
   }
 );
 
